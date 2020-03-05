@@ -30,3 +30,5 @@ table(grepl("June",a))
 
 
 #Q5
+table(year(sampleTimes))
+table(year(sampleTimes),wday(sampleTimes,label=TRUE))
